@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http = "equiv = X-UA-Compatible" content = "ie = edge">
+    <link rel="stylesheet" href="SignUp_style.css">
+</head>
+<body>
+
+    <div class="bg-img">
+        <form action="/action_page.php" class="container">
+          <h1>Sign Up</h1>
+
+          <label for="emri"><b>Emri</b></label>
+          <input type="text" placeholder="Enter Name" name="emri" required>
+
+          <label for="mbiemri"><b>Mbiemri</b></label>
+          <input type="text" placeholder="Enter Surname" name="mbiemri" required>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+
+          <p><b>Please select your gender:</b></p>
+          <input type="radio" id="f" name="gjinia" value="F">
+          <label for="f">M</label><br>
+          <input type="radio" id="m" name="gjinia" value="M">
+          <label for="m">F</label><br>
+          
+          <label for="birthday"><b>Select your birthday:</b></label><br>
+          <input type="date" id="birthday" name="birthday">
+
+          <button type="submit" class="btn">Sign Up</button>
+        </form>
+      </div>
+
+</body>
+</html>
